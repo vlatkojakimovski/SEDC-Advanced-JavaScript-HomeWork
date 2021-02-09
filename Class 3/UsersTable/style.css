@@ -1,0 +1,26 @@
+.wrapper {
+    margin: auto;
+    width: 70%;
+    border: 1px solid black;
+}
+
+#table{
+    margin: 20px auto;
+    width: 95%;
+}
+
+table, tr, td, th{
+    border: 1px solid gray;
+}
+
+table table {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(232, 253, 200, 0.596);
+    border: none;
+}
+
+table table td {
+    width: 25%;
+}
