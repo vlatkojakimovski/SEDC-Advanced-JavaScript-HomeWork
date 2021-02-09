@@ -1,0 +1,17 @@
+table, tr, th, td{
+   border: 1px solid black;
+} 
+
+th {
+   background-color: rgba(218, 216, 216, 0.315);
+}
+
+.form {
+   position: relative;
+   z-index: 1;
+   background: rgba(236, 243, 247, 0.439);
+   width: 60vw;
+   margin: 0 auto 100px;
+   padding: 35px;
+   text-align: left;
+}
