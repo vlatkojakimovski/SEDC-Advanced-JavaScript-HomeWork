@@ -38,7 +38,7 @@ let iterator = 0;
 let rowLength = result[0][0].length-1;
 
 // Part 1 (Hardest way to solve)
-for (let i = 1; i < result[0].length; i+=downRow) {
+for (let i = 1; i < result[0].length; i++) {
     if (iterator+3 >rowLength ) {
         if (rowLength - iterator === 0) {
             iterator = -1;
