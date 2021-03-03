@@ -46,14 +46,14 @@ function searchName(data) {
     console.log(idCounting(tempData));
 }
 function searchEmail(data) {
-    console.log(`Called searchName`);
+    console.log(`Called searchEmail`);
     let tempData = data.filter(el => el.email.toLowerCase().
     includes(emailSearch.value.toLowerCase()))
     writeTable(tempData);
     console.log(idCounting(tempData));
 }
 function searchPhone(data) {
-    console.log(`Called searchName`);
+    console.log(`Called searchPhone`);
     let tempData = data.filter(el => el.phone.toLowerCase().
     includes(phoneSearch.value.toLowerCase()))
     writeTable(tempData);
